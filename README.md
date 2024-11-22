@@ -26,8 +26,11 @@ docker compose up -d
 ```
 Abra a UI do Airflow disponível em http://localhost:8080/ 
 Senha padrão é:
-# User = airflow
-# Pass = airflow
+```bash
+User = airflow
+Pass = airflow
+```
+
 ```bash
 #navegue em Admin > Connections > create Connection
 # Crie uma conexão com os parâmetros:
@@ -65,4 +68,4 @@ pip install -r requirements.txt
 python src/api/main.py
 ```
 Tudas as configurações estão prontas.
-# Na UI do airflow, primeiro, execute 'create_tables_dag' e depois execute 'etl_scraping.py'
+Na UI do airflow, primeiro, execute 'create_tables_dag' e depois execute 'etl_scraping.py'
