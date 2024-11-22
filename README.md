@@ -42,13 +42,13 @@ Pass = airflow
     pipeline-scraping-postgres-1 # Muda conforme diretorio root do projeto, para confirmar, abra um terminal e execute 
     docker network inspect pipeline-scraping_default
     # Procure pelo nome do conteiner postgres
- # Database
+ #  Database
     airflow
- # Login
+ #  Login
     airflow
- # Password
+ #  Password
     airflow
- # Port
+ #  Port
     5432
 # Save
 ```
